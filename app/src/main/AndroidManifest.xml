@@ -13,6 +13,9 @@
         android:theme="@style/Theme.SanRafa"
         tools:targetApi="31">
         <activity
+            android:name=".modelohotel"
+            android:exported="false" />
+        <activity
             android:name=".Acercade"
             android:exported="false" />
         <activity
@@ -29,8 +32,8 @@
             android:exported="false" />
         <activity
             android:name=".Home"
-            android:theme="@style/Theme.AppCompat"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
